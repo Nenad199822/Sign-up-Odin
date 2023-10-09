@@ -1,62 +1,39 @@
-@font-face {
-    font-family: MyFont;
-    src: url(image/Norse-Bold\ \(1\).otf);
-}
-
 body {
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
     margin: 0;
-
+    overflow: hidden;
 }
 
-.background-image {
+.contest {
     width: 100%;
-    height: 52vw;
-    background-repeat: no-repeat;
 }
 
 .background {
+    width: 35%;
+    background-color: aquamarine;
     display: flex;
-    position: relative;
-    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
     overflow: hidden;
-
-
+    position: relative;
 }
 
-.context {
-    background-color: white;
-    display: flex;
-    flex-direction: row;
+.background-img {
     width: 100%;
+    height: 52vw;
+    background-repeat: no-repeat;
     height: auto;
+    box-sizing: border-box;
+
 }
 
 .logo-div {
-    background-color: rgba(108, 238, 195, 0.493);
+    background-color: rgb(228, 199, 106, 40%);
     position: absolute;
-    max-width: 100%;
-    height: 200px;
-    top: 400px;
-    left: 0;
-    right: 0;
+    width: 100%;
     display: flex;
-    flex-direction: row;
     justify-content: center;
     align-items: center;
-    gap: 40px;
+    top: 400px;
     box-sizing: border-box;
-}
-
-.logo-text {
-    font-size: 80px;
-    font-family: MyFont;
-    color: white;
-}
-
-.logo {
-    width: 120px;
-    height: auto;
+    height: 200px;
 }
