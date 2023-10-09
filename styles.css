@@ -1,3 +1,8 @@
+@font-face {
+    font-family: MyFont;
+    src: url(image/Norse-Bold\ \(1\).otf);
+}
+
 body {
     margin: 0;
     overflow: hidden;
@@ -11,6 +16,7 @@ body {
     width: 35%;
     background-color: aquamarine;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     overflow: hidden;
@@ -23,7 +29,6 @@ body {
     background-repeat: no-repeat;
     height: auto;
     box-sizing: border-box;
-
 }
 
 .logo-div {
@@ -45,5 +50,19 @@ body {
 }
 
 .logo-text {
-    font-size: 60px;
+    font-size: 80px;
+    font-family: MyFont;
+    color: white;
+}
+
+.copyright {
+    position: absolute;
+    bottom: 40px;
+    color: white;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    color: inherit
 }
