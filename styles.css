@@ -1,3 +1,5 @@
+@import url('https://fonts.cdnfonts.com/css/oak-sans');
+
 @font-face {
     font-family: MyFont;
     src: url(image/Norse-Bold\ \(1\).otf);
@@ -5,15 +7,19 @@
 
 body {
     margin: 0;
+    padding: 0;
     overflow: hidden;
 }
 
 .contest {
     width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color: aliceblue;
 }
 
 .background {
-    width: 35%;
+    width: 43%;
     background-color: aquamarine;
     display: flex;
     flex-direction: column;
@@ -21,6 +27,8 @@ body {
     align-items: center;
     overflow: hidden;
     position: relative;
+
+
 }
 
 .background-img {
@@ -65,4 +73,17 @@ body {
 
 a {
     color: inherit
+}
+
+
+.right-side {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.text-right-side {
+    width: 80%;
+    font-family: 'Oak Sans', sans-serif;
+    margin-left: 20px;
 }
