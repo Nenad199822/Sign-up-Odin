@@ -153,11 +153,12 @@ input:valid {
     accent-color: gold;
 }
 
-input:focus:valid {
-    background-color: ivory;
+input:focus {
     border: none;
-    outline: 2px solid rgb(3, 3, 3);
+    outline: 2px solid rgb(63, 171, 233);
     border-radius: 5px;
+    accent-color: gold;
+
 }
 
 input:invalid {
