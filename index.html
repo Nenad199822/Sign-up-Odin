@@ -28,16 +28,30 @@
                 <h2 class="text-next-to2">You know you want to.</h2>
             </div>
             <div class="form">
-                <form class='form'>
-                    <fieldset>
-                        <h4>Let's do this!</h4>
+                <form class='form2'>
+                    <h4>Let's do this!</h4>
+                    <div class="inputs">
                         <span for="first-name">First Name </span>
-                        <input type="text" for="first-name" id="first-name" name="firstname" placeholder="Your Name...">
-                    </fieldset>
-
-
+                        <input required type="text" id="first-name" name="firstname" placeholder="Your Name...">
+                    </div>
+                    <div class="inputs">
+                        <span for="last-name">Last Name </span>
+                        <input required type="text" id="last-name" name="lastname" placeholder="Your  Last Name...">
+                    </div>
+                    <div class="inputs">
+                        <span for="email">Email</span>
+                        <input type="email" id="email" name="email" placeholder="something@.com" required>
+                    </div>
+                    <div class="inputs">
+                        <span for="phone">Phone Number</span>
+                        <input type="tel" id="phone" name="phone" placeholder="123456..."
+                            pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required>
+                    </div>
+                    <div class="inputs">
+                        <span for="pwd">Password</span>
+                        <input type="password" for="pwd" id="pwd" name="pwd" required>
+                    </div>
                 </form>
-
             </div>
         </div>
     </div>

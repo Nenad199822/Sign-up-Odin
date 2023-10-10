@@ -5,6 +5,10 @@
     src: url(image/Norse-Bold\ \(1\).otf);
 }
 
+* {
+    box-sizing: border-box;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -39,8 +43,8 @@ body {
     box-sizing: border-box;
 }
 
-input[type=text] {
-    width: 100%;
+input {
+    width: 50%;
     padding: 6px 12px;
     box-sizing: border-box;
     border-radius: 4px;
@@ -98,6 +102,11 @@ a {
     color: inherit
 }
 
+.form {
+    box-sizing: border-box;
+    border: 3px solid blue;
+    width: 100%;
+}
 
 .right-side {
     width: 100%;
