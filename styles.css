@@ -51,6 +51,7 @@ input {
     margin: 8px 0px;
     display: inline-block;
     border: 1px solid #ccc;
+    outline: 2px solid rgb(9, 192, 122);
 }
 
 form {
@@ -126,14 +127,14 @@ a {
 
 .form-container {
 
-    border: 3px solid blue;
     width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
 }
 
 .right-side {
     width: 100%;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
     flex-direction: column;
 }
@@ -147,14 +148,37 @@ a {
 input:valid {
     background-color: ivory;
     border: none;
-    outline: 2px solid rgb(9, 192, 122);
+    outline: 2px solid rgb(64, 250, 138);
     border-radius: 5px;
     accent-color: gold;
+}
+
+input:focus:valid {
+    background-color: ivory;
+    border: none;
+    outline: 2px solid rgb(3, 3, 3);
+    border-radius: 5px;
 }
 
 input:invalid {
     background-color: ivory;
     border: none;
-    outline: 2px solid red;
+    outline: 2px solid rgb(247, 94, 94);
     border-radius: 5px;
+}
+
+button,
+h4 {
+    margin-left: 25px;
+}
+
+button {
+    margin-top: 40px;
+    width: 15%;
+    height: 3vw;
+    background-color: rgba(89, 235, 174);
+    border: none;
+    border-radius: 6px;
+    font-size: 25px;
+    font-family: sans-serif;
 }
