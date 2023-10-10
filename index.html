@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
     <title>Sign-Up-Odin</title>
 </head>
 
@@ -27,9 +28,9 @@
                     help you realize your deepest dreams.Sign up now to get started.</h2>
                 <h2 class="text-next-to2">You know you want to.</h2>
             </div>
-            <div class="form">
-                <form class='form2'>
-                    <h4>Let's do this!</h4>
+            <h4>Let's do this!</h4>
+            <div class="form-container">
+                <form class='form2' id="form">
                     <div class="inputs">
                         <span for="first-name">First Name </span>
                         <input required type="text" id="first-name" name="firstname" placeholder="Your Name...">
@@ -48,11 +49,17 @@
                             pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required>
                     </div>
                     <div class="inputs">
-                        <span for="pwd">Password</span>
-                        <input type="password" for="pwd" id="pwd" name="pwd" required>
+                        <span for="pwd1">Password</span>
+                        <input type="password" id="pwd1" name="pwd1" required>
+                    </div>
+                    <div class="inputs">
+                        <span for="pwd">Password Confirm</span>
+                        <input type="password" id="confirm-pwd" name="confirm-pwd" required>
                     </div>
                 </form>
+
             </div>
+            <button type="submit" form="form" value="Submit">Create Account</button>
         </div>
     </div>
 
